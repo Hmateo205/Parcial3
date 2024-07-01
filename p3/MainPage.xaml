@@ -30,9 +30,19 @@
             <!-- Botón StackLayout -->
             <Button
             x:Name="Boton2"
-            Text="StackLayout" 
+            Text="Lista" 
             SemanticProperties.Hint="Counts the number of times you click"
             Clicked="OnBoton2Clicked"
+            HorizontalOptions="Fill" 
+            TextColor="Black"
+            BackgroundColor="Beige"/>
+
+            <!-- Botón StackLayout -->
+            <Button
+            x:Name="Boton3"
+            Text="Imagen" 
+            SemanticProperties.Hint="Counts the number of times you click"
+            Clicked="OnBoton3Clicked"
             HorizontalOptions="Fill" 
             TextColor="Black"
             BackgroundColor="Beige"/>

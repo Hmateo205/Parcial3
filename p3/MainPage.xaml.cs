@@ -11,12 +11,16 @@
 
         private void OnBoton1Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Paginas.Contador());
+            Navigation.PushAsync(new Layouts.ChuckNorris);
         }
 
         private void OnBoton2Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Paginas.GridLayout());
+            Navigation.PushAsync(new Layouts.Listas());
+        }
+        private void OnBoton3Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Layouts.Imagen());
         }
 
     }
