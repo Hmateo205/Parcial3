@@ -63,11 +63,9 @@
 		<PackageReference Include="NDbUnit.SqlLite" Version="1.6.8" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="SQLite" Version="3.13.0" />
+		<PackageReference Include="SQLitePCLRaw.core" Version="2.1.8" />
+		<PackageReference Include="System.Data.SQLite.Core" Version="1.0.118" />
 		<PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Models\" />
 	</ItemGroup>
 
 	<ItemGroup>
