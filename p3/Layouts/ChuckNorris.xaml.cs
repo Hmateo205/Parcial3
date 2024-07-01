@@ -7,7 +7,7 @@ namespace p3.Layouts;
 
 public partial class ChuckNorris : ContentPage
 {
-    public List<ChuckInfo> list_pokemon;
+    public List<ChuckInfo> list_Chuck;
     public ChuckNorris()
     {
 
